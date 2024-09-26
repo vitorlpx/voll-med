@@ -1,6 +1,6 @@
-package br.com.med.voll.api.usuario.repository;
+package br.com.med.voll.api.repository;
 
-import br.com.med.voll.api.usuario.persistency.UsuarioEntity;
+import br.com.med.voll.api.persistency.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 

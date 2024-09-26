@@ -3,7 +3,7 @@ package br.com.med.voll.api.controller;
 import br.com.med.voll.api.dto.DadosAutenticacaoDTO;
 import br.com.med.voll.api.infra.security.dto.DadosTokenJWT;
 import br.com.med.voll.api.infra.security.service.TokenService;
-import br.com.med.voll.api.usuario.persistency.UsuarioEntity;
+import br.com.med.voll.api.persistency.UsuarioEntity;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

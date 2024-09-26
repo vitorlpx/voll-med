@@ -1,7 +1,7 @@
 package br.com.med.voll.api.infra.security.filter;
 
 import br.com.med.voll.api.infra.security.service.TokenService;
-import br.com.med.voll.api.usuario.repository.UsuarioRepository;
+import br.com.med.voll.api.repository.UsuarioRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

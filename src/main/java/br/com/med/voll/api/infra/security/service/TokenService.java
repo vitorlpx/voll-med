@@ -1,18 +1,16 @@
 package br.com.med.voll.api.infra.security.service;
 
-import br.com.med.voll.api.usuario.persistency.UsuarioEntity;
+import br.com.med.voll.api.persistency.UsuarioEntity;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
-import java.util.Date;
 
 //Classe de validação e geração do token
 @Service
