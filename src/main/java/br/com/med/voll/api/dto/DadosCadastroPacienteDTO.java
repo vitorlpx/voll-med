@@ -19,6 +19,8 @@ public record DadosCadastroPacienteDTO(
         String cpf,
         @NotNull
         @Valid
-        DadosEnderecoDTO endereco
+        DadosEnderecoDTO endereco,
+        @NotBlank
+        Boolean ativo
 ) {
 }

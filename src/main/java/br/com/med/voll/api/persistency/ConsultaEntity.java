@@ -40,4 +40,13 @@ public class ConsultaEntity {
     public void cancelar(MotivoCancelamento motivo) {
         this.motivoCancelamento = motivo;
     }
+
+    public ConsultaEntity(Long id, MedicoEntity medico, PacienteEntity paciente, LocalDateTime data) {
+        this.id = null;
+        this.medico = medico;
+        this.paciente = paciente;
+        this.data = data;
+    }
+
+ 
 }

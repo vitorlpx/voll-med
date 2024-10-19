@@ -26,6 +26,7 @@ public class PacienteEntity {
     private EnderecoEntity endereco;
 
     public PacienteEntity(DadosCadastroPacienteDTO dados) {
+        this.ativo = true;
         this.nome = dados.nome();
         this.cpf = dados.cpf();
         this.email = dados.email();
