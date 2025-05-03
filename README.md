@@ -99,4 +99,4 @@ voll-med/
 └── README.md                              # Documentação do projeto
 ```
 ---
-Desenvolvido por: Vitor.
+Desenvolvido por: ***Vitor*** com base na formação Spring Boot e Java, da Alura.
