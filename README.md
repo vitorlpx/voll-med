@@ -40,6 +40,7 @@ DB_NAME=vollmed_api
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
 JWT_SECRET=seu_segredo
+```
 
 ## ▶️ Executando o Projeto
 
